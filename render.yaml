@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: wioskowe-forum
+    env: python
+    buildCommand: ""
+    startCommand: bash start.sh
+    plan: free
