@@ -7,6 +7,10 @@ import copy
 
 app = FastAPI()
 
+@app.get("/")
+def root():
+    return {"message": "Witamy na Wioskowym Forum!"}
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
