@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wioskowe Forum</title>
+  <script defer src="main.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white p-4">
+  <!-- Górny pasek logowania -->
+  <div class="flex justify-between items-center mb-6">
+    <h1 class="text-3xl font-bold">
+      <span class="mr-2">🧑‍🌾</span>Wioskowe Forum
+    </h1>
+
+    <div class="flex items-center space-x-2">
+      <!-- Widoczne przed logowaniem -->
+      <div id="loginForm" class="flex items-center space-x-2">
+        <input
+          type="text"
+          id="loginName"
+          placeholder="Podaj swój pseudonim"
+          class="p-2 rounded bg-gray-800 text-white"
+        />
+        <button
+          id="loginBtn"
+          class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded"
+        >
+          Zapisz
+        </button>
+      </div>
+
+      <!-- Widoczne po zalogowaniu -->
+      <div id="userInfo" class="hidden flex items-center space-x-2">
+        <span class="text-sm">Zalogowany jako <strong id="usernameDisplay"></strong></span>
+        <button
+          id="logoutBtn"
+          class="bg-red-600 hover:bg-red-700 text-white px-3 py-1 rounded text-sm"
+        >
+          Wyloguj
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Formularz dodawania posta -->
+  <div class="bg-gray-800 p-4 rounded mb-6">
+    <h2 class="text-xl font-bold mb-2">➕ Dodaj post</h2>
+    <form id="postForm" class="space-y-2">
+      <input
+        type="text"
+        id="title"
+        placeholder="Tytuł"
+        required
+        class="w-full p-2 rounded bg-gray-700 text-white"
+      />
+      <textarea
+        id="content"
+        placeholder="Treść"
+        required
+        class="w-full p-2 rounded bg-gray-700 text-white"
+      ></textarea>
+      <input
+        type="text"
+        id="author"
+        placeholder="Autor"
+        required
+        class="w-full p-2 rounded bg-gray-700 text-white"
+      />
+      <button
+        type="submit"
+        class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded"
+      >
+        Dodaj
+      </button>
+    </form>
+  </div>
+
+  <!-- Lista postów -->
+  <div id="postsList"></div>
+</body>
+</html>
+
