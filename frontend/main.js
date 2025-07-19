@@ -1,4 +1,5 @@
-const API_URL = "http://localhost:8000";
+const API_URL = "https://wioskowe-forum-1.onrender.com";
+
 
 // Elementy logowania
 const loginForm = document.getElementById("loginForm");
