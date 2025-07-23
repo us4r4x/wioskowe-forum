@@ -47,24 +47,25 @@ https://wioskowe-forum-frontend.onrender.com/
 
 ## Zrzuty ekranu
 
-### Strona główna
-Widok główny aplikacji z listą postów i interfejsem użytkownika.
-![Strona główna](images/strona_glówna.png)
+### Strona główna  
+Widok główny aplikacji z listą postów i interfejsem użytkownika.  
+![Strona główna](images/strona_glowna.png)
 
-### Dodawanie komentarza
-Przykład pola do wpisania komentarza pod postem.
+### Dodawanie komentarza  
+Przykład pola do wpisania komentarza pod postem.  
 ![Komentarz](images/komentarz.png)
 
-### Odpowiedź na komentarz
-Zagnieżdżony komentarz jako odpowiedź – przykład threaded comments.
+### Odpowiedź na komentarz  
+Zagnieżdżony komentarz jako odpowiedź – przykład threaded comments.  
 ![Odpowiedź](images/odpowiedz.png)
 
-### Wybór pseudonimu
-Widok przy nadawaniu użytkownikowi tymczasowego pseudonimu.
+### Wybór pseudonimu  
+Widok przy nadawaniu użytkownikowi tymczasowego pseudonimu.  
 ![Pseudonim](images/pseudonim.png)
 
 
 ## Struktura katalogów
+```
 wioskowe_forum/
 ├── backend/           # FastAPI backend
 ├── frontend/          # Statyczny frontend (HTML + JS)
@@ -72,13 +73,16 @@ wioskowe_forum/
 ├── docker-compose.yml
 ├── .gitignore
 ├── README.md
+```
 
 
 ## Autor
+```
 Tomasz Bednarczyk
 Informatyka NST. IV SEM.
 Akademia Techniczno-Informatyczna w Naukach Stosowanych
 
+```
 
 ## Licencja
 Projekt edukacyjny stworzony na potrzeby zajęć **"Systemy programowania w chmurze"**. Kod open-source.
