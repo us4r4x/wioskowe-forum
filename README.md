@@ -34,8 +34,11 @@ docker-compose up --build
 
 Aplikacja będzie dostępna pod:
 
-   - **Backend (API):** [http://localhost:8000](http://localhost:8000)  
-   - **Frontend (UI):** [http://localhost:8080](http://localhost:8080)
+   - **Backend:** [http://localhost:8000](http://localhost:8000)  
+   - **Frontend:** [http://localhost:8080](http://localhost:8080)
+
+```
+
 
 ## Wersja online
 Aplikacja dostępna pod adresem:
@@ -78,4 +81,4 @@ Akademia Techniczno-Informatyczna w Naukach Stosowanych
 
 
 ## Licencja
-Projekt edukacyjny stworzony na potrzeby zajęć "Systemy programowania w chmurze". Kod open-source.
+Projekt edukacyjny stworzony na potrzeby zajęć **"Systemy programowania w chmurze"**. Kod open-source.
